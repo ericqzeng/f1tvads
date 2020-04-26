@@ -1,0 +1,39 @@
+SUMMARY OF PARAMS
+Query Image,Video,Chain Length,Feature Extractor,Matcher,Frame Interval,Pass Ratio,Match Thresh,Min Area,Filter Intersections,Min Angle,Max Angle
+logos/emirates.jpg,videos/15brazil-5min.mp4,3,ORB,FLANN,2,0.7,10,0.01,True,45,135
+MATCHES
+Frame Num,Img Name,Area,Min Angle,Max Angle,Chain Weight Factor
+234,frame234.jpg,0.24870641893810697,60.587539004509665,106.05281954051019,1
+235,frame235.jpg,0.301695966190762,60.30452367625921,103.14836399280469,1
+236,frame236.jpg,0.0833619483311971,82.78559452743504,90.7845348845334,1
+312,frame312.jpg,0.043396374020311566,77.76312427560003,94.8700556612334,1
+313,frame313.jpg,0.059700306124157373,64.6714339952984,110.36892475648456,1
+314,frame314.jpg,0.052375957402918075,70.12615041459576,103.96207017391703,1
+315,frame315.jpg,0.04533168978161282,80.87273176902185,93.39258569042381,1
+316,frame316.jpg,0.0489813248316447,78.32843076203397,98.23739826734592,1
+566,frame566.jpg,0.12132450924979316,80.45477068461402,94.52756238689862,1
+567,frame567.jpg,0.20763554784986707,61.22021861230455,116.75546526305018,1
+568,frame568.jpg,0.13390107578701443,77.97491371560372,97.51157184430382,1
+569,frame569.jpg,0.14122722413804795,82.74998271954969,90.25280010184801,1
+2171,frame2171.jpg,0.05564002803630299,83.89267699794596,88.54492397403719,1
+2172,frame2172.jpg,0.05223992678854201,85.70863030705846,88.77172462552754,1
+2173,frame2173.jpg,0.052995249430338544,84.3847576583009,88.29056208493418,1
+2174,frame2174.jpg,0.05448891878128052,86.04024629035239,88.33556618354012,1
+2184,frame2184.jpg,0.1871231508255005,57.619853790655796,119.0655533802797,1
+2185,frame2185.jpg,0.08386256204711066,74.54959016624883,100.44152999506163,1
+2186,frame2186.jpg,0.08047971142662896,78.25235052279456,98.16159049450057,1
+
+
+ERRORS
+"OpenCV(3.4.2) /io/opencv/modules/flann/src/miniflann.cpp:317: error: (-5:Bad argument) Only continuous arrays are supported in function 'buildIndex_'
+"
+"OpenCV(3.4.2) /io/opencv/modules/flann/src/miniflann.cpp:487: error: (-215:Assertion failed) (size_t)knn <= index_->size() in function 'runKnnSearch_'
+"
+"OpenCV(3.4.2) /io/opencv/modules/flann/src/miniflann.cpp:317: error: (-5:Bad argument) Only continuous arrays are supported in function 'buildIndex_'
+"
+"OpenCV(3.4.2) /io/opencv/modules/flann/src/miniflann.cpp:317: error: (-5:Bad argument) Only continuous arrays are supported in function 'buildIndex_'
+"
+"OpenCV(3.4.2) /io/opencv/modules/flann/src/miniflann.cpp:317: error: (-5:Bad argument) Only continuous arrays are supported in function 'buildIndex_'
+"
+"OpenCV(3.4.2) /io/opencv/modules/flann/src/miniflann.cpp:317: error: (-5:Bad argument) Only continuous arrays are supported in function 'buildIndex_'
+"

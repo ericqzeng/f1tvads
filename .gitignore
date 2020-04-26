@@ -130,5 +130,10 @@ dmypy.json
 
 videos/
 papers/
-output*
-remote*
+output*/*.jpg
+remote*/*.jpg
+rolex*/*.jpg
+emirate*/*.jpg
+dhl*/*.jpg
+genii*/*.jpg
+~*
