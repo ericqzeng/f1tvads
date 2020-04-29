@@ -1,6 +1,5 @@
 SUMMARY OF PARAMS
 Query Image,Video,Chain Length,Feature Extractor,Matcher,Frame Interval,Pass Ratio,Match Thresh,Min Area,Filter Intersections,Min Angle,Max Angle
-logos/allianz.jpg,videos/08european-5min.mp4,3,ORB,BF,1,0.7,10,0.01,True,45,135
+logos/emirates.jpg,videos/15brazil-5min.mp4,3,SIFT,FLANN,2,0.7,10,0.01,True,45,135
 MATCHES
 Frame Num,Img Name,Area,Min Angle,Max Angle,Chain Weight Factor
-ERRORS
